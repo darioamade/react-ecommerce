@@ -10,15 +10,14 @@ import {
   Button,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
-import { Link , useLocation} from 'react-router-dom'
+import { Link, useLocation } from "react-router-dom";
 
 import logo from "../../assets/logo-x.png";
 import useStyles from "./styles";
 
 const Navbar = ({ totalitems }) => {
   const classes = useStyles();
-  const location = useLocation()
-
+  const location = useLocation();
 
   return (
     <div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 
 import Product from "./Product/Product";
-import  useStyles from './styles'
+import useStyles from "./styles";
 
 // const products = [
 
@@ -22,7 +22,7 @@ import  useStyles from './styles'
 //     image:
 //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPeM9l1WIJiPqhzeLkeTWG8towrOwvkbMHgfSooTgftfDR8RQ_C9t9_sS0bA&usqp=CAc",
 //   },
-// ]; 
+// ];
 
 const Products = ({ products, onAddToCart }) => {
   const classes = useStyles();
